@@ -178,6 +178,8 @@ Assuming that text direction `direction: ltr` (left to right). It works in the o
    - Example of a row (horizontal) container items `[]`: 
      - `[order -1][order 0] [order 0] [order 1] [order 3]`
 
+![`order` visualization](https://css-tricks.com/wp-content/uploads/2018/10/order.svg)
+
 ### Applications of Flexbox
 
 Do not use it to build an entire layout. Similar to `position`, a property that you will not use to build entire layouts but only certain components, use flexbox for intricate layouts only. The reason is that flexbox can take elements out of the normal flow as defined in the source document (HTML) and disrupts the original layout. Some examples for the right use of flexboxes are:
