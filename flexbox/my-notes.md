@@ -117,6 +117,8 @@ Assuming that text direction `direction: ltr` (left to right). It works in the o
    - `space-around`: The extreme elements do not touch start and end of the main axis. All the elements are evenly spaced out with half the amount of spacing left on each extreme side.
    - `stretch`: The items are stretched out on the main axis. Sometimes `height` property could interfere with it and in that case, `height: auto` will allow stretch to work.
    - `normal`: No spcecific alignment.
+   
+![`justify-content` visualization](https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg)
 
 5. **`align-items`**: It *aligns items on the cross axis*.
 
