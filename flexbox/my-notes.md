@@ -149,16 +149,17 @@ Assuming that text direction `direction: ltr` (left to right). It works in the o
 
 #### Flex Item Properties
 
-1. **`flex-grow`**: Defines a proprtion by which an item ***grows*** inside the container. It accepts positive integer or floating point values.
+1. **`flex-grow`**: This defines the ability for a flex item to ***grow*** if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up. If all items have flex-grow set to 1, the remaining space in the container will be distributed equally to all children. If one of the children has a value of 2, the remaining space would take up twice as much space as the others (or it will try to, at least).
    - `1`: *Default value*, equal growth. The item grows just as much as the container's growth.
    - `2`: The item grows twice as much as the container's growth. 
    - `1.5` *... and so on.*
-2. **`flex-shrink`**: Defines a proportion by which an item ***shrinks*** inside the container. It too accepts positive integer or floating point values.
+2. **`flex-shrink`**: This defines the ability for a flex item to ***shrink*** if necessary, inside the container. It too accepts positive integer or floating point values.
    - `1`: *Default value*, equal shrink. The item shrinks just as much as the container's shrink.
    - `2`: The item shrinks twice as much as the container's shrink.
    - `1.5` *... and so on.*
 3. **`flex-basis`**: This defines the default size of an element before the remaining space is distributed. Similar to `width` or `height` and it takes precedence over them. The difference is that it does not overflow the container in case the value is high, it gets squished (is shrunk) accordingly.
-   - `auto`: *Default value*.
+   - `auto`: *Default value*, based on `height` and `width` property.
+   - `content`: size is based on the item's content.
    - `px`, `%`, `em`, `pt`, etc values can be set.
 4. **`flex`**: It is a ***shorthand*** for grow, shrink and basis.
    - Syntax: `flex: flex-grow flex-shrink flex-basis`
@@ -169,6 +170,9 @@ Assuming that text direction `direction: ltr` (left to right). It works in the o
    - `center`
    - `baseline`
    - `stretch`
+  
+![`align-self` visualization](https://css-tricks.com/wp-content/uploads/2018/10/align-self.svg)
+  
 6. **`order`**: Orders a particular element visually with respect to other items inside the container. You can think of it as being vaguely similar to `z-index`. It accepts any integer value, including negative ones. It places smaller valued items at the start and higher valued items at the end. (It sorts items in ascending order from start position)
    - `0`: *Default value*. 
    - Example of a row (horizontal) container items `[]`: 
