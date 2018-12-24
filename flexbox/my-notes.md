@@ -114,7 +114,8 @@ Assuming that text direction `direction: ltr` (left to right). It works in the o
    - `flex-end`: Items are aligned to end of the main axis.
    - `center`: Items are aligned to the center of the main axis.
    - `space-between`: The extreme elements touch start and end of main axis and elements in between are evenly spaced out. Similar to `text-align` but for block elements.
-   - `space-around`: The extreme elements do not touch start and end of the main axis. All the elements are evenly spaced out with half the amount of spacing left on each extreme side.
+   - `space-around`: The extreme elements do not touch start and end of the main axis. All the elements are evenly spaced out with half the amount of spacing left on each extreme side as is in between.
+   - `space-evenly`: The extreme elements do not touch start and end of the main axis. All the elements are evenly spaced out with the same, equal the amount of spacing left on each extreme side as well.
    - `stretch`: The items are stretched out on the main axis. Sometimes `height` property could interfere with it and in that case, `height: auto` will allow stretch to work.
    - `normal`: No spcecific alignment.
    
