@@ -19,6 +19,10 @@ We can recognise any element as a flex container by adding **`display: flex;`** 
 
 Flex properties generally override other properties and in case of conflicts of any sort, there could be unexpected behavior. `float`, `clear`, etc **do not** work in a flex layout.
 
+![container](https://css-tricks.com/wp-content/uploads/2018/10/01-container.svg)
+
+![items](https://css-tricks.com/wp-content/uploads/2018/10/02-items.svg)
+
 ### The Concept of Flexbox Axes
 
 We can think of flexbox container being a plane with two axes:
@@ -129,6 +133,8 @@ Assuming that text direction `direction: ltr` (left to right). It works in the o
    - `stretch`
    - `baseline`
 
+![`align-items` visualization](https://css-tricks.com/wp-content/uploads/2018/10/align-items.svg)
+
 6. **`align-content`**: It is used to *manage the space between multiple lines* when flex items are *wrapped* inside a container. It has no effect if `flex-wrap: nowrap` is set (or on any single-line containers).
 
    - `flex-start`
@@ -136,6 +142,8 @@ Assuming that text direction `direction: ltr` (left to right). It works in the o
    - `center`
    - `space-around`
    - `space-between`
+
+![`align-content` visualization](https://css-tricks.com/wp-content/uploads/2018/10/align-content.svg)
 
 #### Flex Item Properties
 
