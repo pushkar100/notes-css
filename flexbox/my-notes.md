@@ -100,6 +100,7 @@ Assuming that text direction `direction: ltr` (left to right). It works in the o
    - `nowrap`: The items are not wrapped onto the next line. All the items are on the same line. However, there is no overflow. Instead, the items are squished tightly together according to their proportions if they exceed the available space on the line.
    - `wrap`: Wraps the elements if the space available on one line is exceeded.
    - `wrap-reverse`: Wraps but in reverse order. If wrapping was from top to bottom, then wrap-reverse will be from *bottom-to-top*.
+   - [`flex-wrap` demo](https://css-tricks.com/almanac/properties/f/flex-wrap/)
 
 3. **`flex-flow`**: It is a ***shorthand*** for direction and wrap. 
 
