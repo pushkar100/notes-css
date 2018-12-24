@@ -2,7 +2,7 @@
 
 Earlier, the layout was based on horizontal (inline) and vertical (block) elements. The box model provided the basis for building layouts.
 
-Flexbox is a **new layout**. It is not just a property but a way of building your UI. It is a shortform for "*Flexible Box Layout Model*".**
+Flexbox is a **new layout**. It is not just a property but a way of building your UI. It is a shortform for "*Flexible Box Layout Model*".
 
 *Browser Support*: All major browsers support flexbox (without prefixes). Full support for IE came in **IE 11**. Basically, **95**% of all global browser usage supports flexbox.
 
