@@ -105,6 +105,8 @@ Assuming that text direction `direction: ltr` (left to right). It works in the o
    - `wrap`: Wraps the elements if the space available on one line is exceeded.
    - `wrap-reverse`: Wraps but in reverse order. If wrapping was from top to bottom, then wrap-reverse will be from *bottom-to-top*.
    - [`flex-wrap` demo](https://css-tricks.com/almanac/properties/f/flex-wrap/)
+   
+![`flex-wrap` visualization](https://css-tricks.com/wp-content/uploads/2018/10/flex-wrap.svg)
 
 3. **`flex-flow`**: It is a ***shorthand*** for direction and wrap. 
 
