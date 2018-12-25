@@ -194,3 +194,4 @@ Do not use it to build an entire layout. Similar to `position`, a property that 
 1. Practice flexbox: http://flexboxfroggy.com
 2. A thorough guide: https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-basics
 3. W3Schools article: https://www.w3schools.com/css/css3_flexbox.asp
+4. More about flexbox (Freecodecamp): https://medium.freecodecamp.org/even-more-about-how-flexbox-works-explained-in-big-colorful-animated-gifs-a5a74812b053
